@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+/* Spacing/font/color of top of page */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* header text horizontal */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Top display size/font/color, text is on right side */
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* text is horizontal */
+header nav ul {
+    list-style-type: inline;
+}
+
+/* top menu to the left and spacing of line items. */
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* image under header size/display box size */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* position article images */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* position of article image */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Position and size of artile boxes */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Right side display box components size/color/font for  */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* display box size holding h3 */
+.benefitsTag {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* spacing and alignment of text inside display box */
+.benefitsTag h3 {
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+/* h3 image's spacing */
+.benefitsTag img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Display box component sizes and background color with font and text color for all article elements. */
+.searchEngineProduct {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* article images size */
+.searchEngineProduct img {
+    max-height: 200px;
+}
+
+/* display box spacing */
+.benefitsTag h3 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
