@@ -1,12 +1,14 @@
 # Homework1
-first week homework due 11/6.
+Refactored code. cleaned up HTML code by adding symantics like header, nav, section and article elements. Also updated class/id tags to clean up HTML and CSS code.
 
 Made sure all image links and jump href link work properly.
 
 Modified all class/ID tags to be linked in css.
 
-All css selectors and properties follow symantic sturcture.
+All HTML/CSS selectors and elements follow symantic structure.
 
-commented on css fil describing what is being done on each tag.
+commented on css file describing applied on each tag.
+
+https://bertokeys1.github.io/SEOmarketing/
 
 ![](seo-screenshot.png)
